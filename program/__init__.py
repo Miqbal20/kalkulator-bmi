@@ -30,3 +30,7 @@ def mulai():
             break
         else:
             print("Jawaban Invalid")
+
+
+if __name__ == 'main':
+    mulai()

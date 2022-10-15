@@ -8,7 +8,7 @@ setuptools.setup(
     version="0.1",
     author="Muhammad Iqbal",
     author_email="miqbal020@hotmail.com",
-    description="paket ini berisi kalkulator yang berfungsi untuk menghitung BMI atau IMT",
+    description="Paket ini berisi kalkulator yang berfungsi untuk menghitung BMI atau IMT",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Miqbal20/kalkulator_bmi",
