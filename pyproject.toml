@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "kalkulator_bmi"
-version = "0.3.0"
+version = "1.0.0"
 description = "This package contains a BMI (Body Mass Index) calculator program with UI."
 authors = ["Muhammad Iqbal <miqbal20.work@gmail.com>"]
 readme = "README.md"

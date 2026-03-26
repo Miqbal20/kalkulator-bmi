@@ -1,12 +1,14 @@
 # BMI Calculator
 
+**GitHub:** [https://github.com/Miqbal20/kalkulator-bmi](https://github.com/Miqbal20/kalkulator-bmi)
+
 ## Body Mass Index (BMI)
 Body Mass Index or BMI is a measure used to indicate the weight category of a person. This calculation method was initially developed in the 19th century by Adolphe Quetelet. Another term used for BMI is Quetelet index.
 
 ## Screenshots
 | Initial View | In Use |
 |:---:|:---:|
-| <img src="docs/gui-1.png" width="300" alt="Screenshots - Initial View"/> | <img src="docs/gui-2.png" width="300" alt="Screenshots - In Use"/> |
+| <img src="https://raw.githubusercontent.com/Miqbal20/kalkulator-bmi/main/docs/gui-1.png" width="300" alt="Screenshots - Initial View"/> | <img src="https://raw.githubusercontent.com/Miqbal20/kalkulator-bmi/main/docs/gui-2.png" width="300" alt="Screenshots - In Use"/> |
 
 ## Installation & How to Use
 
