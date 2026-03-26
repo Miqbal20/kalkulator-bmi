@@ -1,13 +1,13 @@
 [tool.poetry]
 name = "kalkulator_bmi"
-version = "0.2.0"
+version = "0.3.0"
 description = "This package contains a BMI (Body Mass Index) calculator program with UI."
-authors = ["Muhammad Iqbal <miqbal020@hotmail.com>"]
+authors = ["Muhammad Iqbal <miqbal20.work@gmail.com>"]
 readme = "README.md"
 packages = [{include = "bmi_calculator"}]
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "^3.11"
 
 [tool.poetry.scripts]
 bmi-calculator = "bmi_calculator.__init__:run_gui"
