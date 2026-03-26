@@ -1,0 +1,2 @@
+# No external dependencies required for the BMI Calculator.
+# The `tkinter` library used for the GUI is part of the Python Standard Library.

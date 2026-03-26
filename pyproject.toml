@@ -1,19 +1,17 @@
-[project]
+[tool.poetry]
 name = "kalkulator_bmi"
-version = "0.0.1"
-authors = [
-  { name="Muhammad Iqbal", email="miqbal020@hotmail.com" },
-]
-description = "Paket ini berisi kalkulator yang berfungsi untuk menghitung BMI atau IMT"
+version = "0.2.0"
+description = "This package contains a BMI (Body Mass Index) calculator program with UI."
+authors = ["Muhammad Iqbal <miqbal020@hotmail.com>"]
 readme = "README.md"
-requires-python = ">=3.7"
-classifiers = [
-    "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent",
-    "Development Status :: 4 - Beta"
-]
+packages = [{include = "bmi_calculator"}]
 
-[project.urls]
-"Homepage" = "https://github.com/Miqbal20/kalkulator_bmi"
-"Bug Tracker" = "https://github.com/Miqbal20/kalkulator_bmi/issues"
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.scripts]
+bmi-calculator = "bmi_calculator.__init__:run_gui"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
