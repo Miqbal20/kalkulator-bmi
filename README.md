@@ -3,6 +3,11 @@
 ## Body Mass Index (BMI)
 Body Mass Index or BMI is a measure used to indicate the weight category of a person. This calculation method was initially developed in the 19th century by Adolphe Quetelet. Another term used for BMI is Quetelet index.
 
+## Screenshots
+| Initial View | In Use |
+|:---:|:---:|
+| <img src="docs/gui-1.png" width="300" alt="Screenshots - Initial View"/> | <img src="docs/gui-2.png" width="300" alt="Screenshots - In Use"/> |
+
 ## Installation & How to Use
 
 This project supports two execution modes: using **Poetry** (recommended) or a standard Python **Virtual Environment (venv)**.
